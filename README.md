@@ -106,14 +106,6 @@ The model separates the clinically critical **Seizure** class almost perfectly (
 
 Epileptic Seizure Recognition UCI Machine Learning Repository.
 
-## References
-
-- Andrzejak, R. G., et al. (2001). Indications of nonlinear deterministic and finite-dimensional structures in time series of brain electrical activity. *Physical Review E*, 64(6), 061907.
-- Hjorth, B. (1970). EEG analysis based on time domain properties. *Electroencephalography and Clinical Neurophysiology*, 29(3), 306-310.
-- Richman, J. S., & Moorman, J. R. (2000). Physiological time-series analysis using approximate entropy and sample entropy. *American Journal of Physiology*, 278(6), H2039-H2049.
-- Higuchi, T. (1988). Approach to an irregular time series on the basis of the fractal theory. *Physica D*, 31(2), 277-283.
-- Petrosian, A. (1995). Kolmogorov complexity of finite sequences and recognition of different preictal EEG patterns. *IEEE Symposium on Computer-Based Medical Systems*.
-
 
 ## Contact
 Feel free to reach out if you have questions or feedback!
