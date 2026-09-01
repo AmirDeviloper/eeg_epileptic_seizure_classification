@@ -106,10 +106,10 @@ The model separates the clinically critical **Seizure** class almost perfectly (
 
 Epileptic Seizure Recognition UCI Machine Learning Repository.
 
-
 ## Contact
-Feel free to reach out if you have questions or feedback!
-You can find me on Telegram: @AmirDevil
+
+Feel free to reach out if you have questions or feedback!  
+Telegram: [@AmirDevil](https://t.me/AmirDevil)
 
 ## License
 This project is licensed under the MIT License.
