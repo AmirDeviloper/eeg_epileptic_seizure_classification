@@ -96,7 +96,7 @@ The model separates the clinically critical **Seizure** class almost perfectly (
    ```bash
    pip install numpy pandas scipy scikit-learn matplotlib seaborn joblib
    ```
-2. Download the dataset (see below) and place `Epileptic Seizure Recognition.csv` in the project root.
+2. Download the `dataset.zip`, then unzip it and place `Epileptic Seizure Recognition.csv` in the project root.
 3. Run:
    ```bash
    python epileptic_seizure_reco.py
