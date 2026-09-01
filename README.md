@@ -2,6 +2,8 @@
 
 A full machine learning pipeline for classifying EEG signal segments into five clinical categories — including active seizure activity — using handcrafted signal features, PCA, mutual-information feature selection, and gradient-boosted trees.
 
+---
+
 ## Overview
 
 This project works with the **Epileptic Seizure Recognition** dataset (11,500 samples, 5 balanced classes, 178 raw EEG values per sample) and builds an end-to-end classification pipeline: signal-domain feature engineering, dimensionality reduction, feature selection, model comparison, hyperparameter tuning, and a final held-out test evaluation.
@@ -12,6 +14,8 @@ This project works with the **Epileptic Seizure Recognition** dataset (11,500 sa
 3. Healthy (signal from a healthy region in a tumor patient)
 4. Eyes Closed (healthy subject, eyes closed)
 5. Eyes Open (healthy subject, eyes open)
+
+---
 
 ## Pipeline
 
@@ -74,12 +78,16 @@ Evaluated once on the untouched 2,300-sample test set:
 
 The model separates the clinically critical **Seizure** class almost perfectly (~98% F1). Most confusion occurs between **Tumor ↔ Healthy** (physiologically similar recordings from the same patients) and, to a lesser extent, **Eyes Closed ↔ Eyes Open**.
 
+---
+
 ## Tech Stack
 
 - Python, NumPy, SciPy, pandas
 - scikit-learn (PCA, feature selection, model selection, HistGradientBoosting, Random Forest, SVM, k-NN)
 - joblib (parallel feature extraction)
 - matplotlib, seaborn
+
+---
 
 ## Project Structure
 
@@ -89,6 +97,8 @@ The model separates the clinically critical **Seizure** class almost perfectly (
 ├── Epileptic Seizure Recognition.csv   # Dataset (not included — see Dataset section)
 └── report.pdf / report.docx    # Full written report with figures and tables
 ```
+
+---
 
 ## How to Run
 
@@ -102,14 +112,20 @@ The model separates the clinically critical **Seizure** class almost perfectly (
    python epileptic_seizure_reco.py
    ```
 
+---
+
 ## Dataset
 
 Epileptic Seizure Recognition UCI Machine Learning Repository.
+
+---
 
 ## Contact
 
 Feel free to reach out if you have questions or feedback!  
 Telegram: [@AmirDevil](https://t.me/AmirDevil)
+
+---
 
 ## License
 This project is licensed under the MIT License.
